@@ -13,12 +13,11 @@
     </head>
     <body>
         <h1>Shopping List</h1>
-        <form action="shoppingList" method="post">
+        <form action="shoppingList" method="POST">
+            <input type="hidden" name="action" value="register">
             <label>Username:</label>
             <input name="username" id="username"/>
             <input type="submit"  name="buttonRegister" id="buttonRegister" value="Register name">
         </form>
-        
-        <h1>Test: <c:out value="${action}"/></h1>
     </body>
 </html>
