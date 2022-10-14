@@ -1,7 +1,7 @@
 <%-- 
     Document   : shoppingList
     Created on : 11-Oct-2022, 6:42:01 PM
-    Author     : Arcto
+    Author     : J. Pointer
 --%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
